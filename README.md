@@ -48,8 +48,8 @@ Interactive docs at **http://127.0.0.1:8000/docs**
 ### Create a user (with picture)
 ```bash
 curl -X POST http://127.0.0.1:8000/users/ \
-  -F "name=Alice Smith" \
-  -F "email=alice@example.com" \
+  -F "name=Oguejiofor Joshua" \
+  -F "email= josh@example.com" \
   -F "bio=Software engineer" \
   -F "profile_picture=@/path/to/photo.jpg"
 ```
@@ -95,8 +95,8 @@ curl -X DELETE http://127.0.0.1:8000/users/1/picture
  ```json
 {
   "id": 1,
-  "name": "Alice Smith",
-  "email": "alice@example.com",
+  "name": "oguejiofor joshua",
+  "email": "josh@example.com",
   "bio": "Software engineer",
   "profile_picture": "<base64-encoded-string>",
   "profile_picture_mime": "image/jpeg",
